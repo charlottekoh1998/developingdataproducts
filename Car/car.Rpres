@@ -1,0 +1,38 @@
+Car
+========================================================
+author: Charlotte Koh
+date: July 2020
+autosize: true
+
+Introduction
+========================================================
+
+The web application can be found from:
+https://charlottekoh1998.shinyapps.io/developingdataproducts/
+
+Application
+========================================================
+
+My app allows you to choose a car that you want.
+
+First, enter the price of gas and distance of your trip. The cars with the mpg in the range you have selected will be shown.
+
+Lastly, you can choose other characteristics that you would like for your car, such as Displacement and Horse Power.
+
+'mtcars' Dataset
+========================================================
+
+```{r, echo=FALSE}
+library(datasets)
+data(mtcars)
+head(mtcars, 4)
+```
+
+Variable Correlation
+========================================================
+
+```{r, echo=FALSE}
+library(datasets)
+data(mtcars)
+cor(mtcars)
+```

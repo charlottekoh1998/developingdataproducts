@@ -1,0 +1,16 @@
+---
+title: "Documentation"
+author: "Charlotte Koh"
+date: "7/28/2020"
+output: html_document
+---
+
+## Choosing Your Car
+
+The web application lets you choose a car using the 'mtcars' dataset from R.
+
+You will need to insert the price of gasoline in your region  and the distance of your trip, and the gasoline expenditure is then calculated for each car. You can enter your maximum gasoline expenditure, and the application will show the cars within the range.
+
+You can also choose other characteristics such as horse power, displacement, transmission for the car as the filters.
+
+
